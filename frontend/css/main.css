@@ -1,0 +1,112 @@
+
+  /* general styling */
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    font-family: 'Lato', Avenir, nunito-sans;
+    opacity:100% !important;
+ 
+  }
+
+  .backgroundmp{
+
+    overflow: hidden;
+    padding: 16px;
+    opacity:30%;
+    z-index: -1;
+    position: absolute;
+  }
+  
+
+ h1 {
+   text-align: center;
+   padding-top: 7rem;
+   padding-left: 7rem;
+   padding-right: 7rem;
+    font-family: 'Lato', Avenir, nunito-sans;
+   
+    font-size: 90px;
+    font-weight: 900;
+    color: #BCD9E2;
+  }
+
+  h2, h3, h4, h5{
+    font-family: 'Lato';
+    font-weight:300;
+    color: #BCD9E2;
+  }
+h4,h2 {
+  text-align: center;
+}
+h2{
+  font-size:2rem;
+  color: #78ABBB; 
+}
+h3{
+  font-size:2.5rem;
+  color: #78ABBB; 
+  text-align:center;
+}
+
+  h5{
+    padding-left:1px;
+    font-size: 1.1rem;
+  }
+  
+icon{
+  padding-top:.5rem;
+  display: inline-block !important;
+  text-align:center;
+  font-size:20px;
+   color:#BCD9E2;
+}
+
+#quiz{
+ 
+}
+#organizations{
+
+}
+button:focus { outline:0 !important; }
+button{
+  background:none;
+  outline-color: none;
+  outline:none;
+  border:none ;
+  transition-duration: 0.4s;
+}
+
+a{
+  color: #78ABBB; 
+  transition-duration: .6s !important;
+  text-align: center;
+  background:none;
+  text-decoration:none !important;
+
+}
+a:hover{
+  color: #BCD9E2 !important;
+  text-decoration:none !important;
+
+}
+
+
+.un {
+  display: inline-block;
+}
+
+.un::after {
+  content: '';
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: #BCD9E2;
+  transition: 450ms;
+}
+
+.un:hover::after {
+  width: 100%;
+}
