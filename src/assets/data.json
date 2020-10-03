@@ -1,0 +1,61 @@
+{
+    "venues": [
+        {
+            "description": "Schon seit längerem wollte Rummel sich sein kleines Paradies schaffen, hat tiefe stille Wasser betörnt und stürmischen Zeiten getrotzt und hat endlich geankert - in einer schönen kleinen Bucht nicht weit von Euch! In diese Bucht läd Rummel von Mai bis Mitte September zum Chillen und Grillen, zum Schunkeln, Munkeln und natürlich Trunkeln. Und wenn Rummel mal so richtig gut drauf ist, dann wird auch mal ordentlich gerummelt! So oder so, zu Wasser wie zur Bucht, auch der Rummel ist nichts ohne seine Crew. Also Leichtmatrosen und Matrösinnen - kommt rum und lasst es Euch gut gehn! Ahoi* Ach ja, geöffnet ist nur an sonnigen und regenfreien Tagen :) ________________ Reservierungsanfragen sind nur per Mail möglich bucht@rummels-welt.de (Reservierungsanfragen werden nur zwischen Di-Fr beantwortet) ",
+            "name": "Rummels Bucht",
+            "link": "https://www.google.com",
+            "geometry": [
+                44.500000,
+                -89.500000
+            ]
+        },
+        {
+            "name": "SEZ Berlin",
+            "link": "https://www.google.com",
+            "geometry": [
+                39.000000,
+                -80.500000
+            ]
+        },
+        {
+            "name": "Huxley's Neue Welt",
+            "link": "https://www.google.com",
+            "geometry": [
+                44.000000,
+                -72.699997
+            ]
+        },
+        {
+            "name": "Mensch Meier",
+            "link": "https://www.google.com",
+            "geometry": [
+                31.000000,
+                -100.000000
+            ]
+        },
+        {
+            "name": "Zur Klappe",
+            "link": "https://www.google.com",
+            "geometry": [
+                41.700001,
+                71.500000
+            ]
+        },
+        {
+            "name": "OHM",
+            "link": "https://www.google.com",
+            "geometry": [
+                44.000000,
+                -120.500000
+            ]
+        },
+        {
+            "name": "M-BIA",
+            "link": "https://www.google.com",
+            "geometry": [
+                43.000000,
+                -75.000000
+            ]
+        }
+    ]
+}

@@ -1,28 +1,20 @@
 import React from 'react';
-
-// import map from './components/map/map'
-// import quiz from './components/quiz/quiz'
-// import mapselecter from './components/mapselecter/mapselecter'
-
-import { map,quiz,mapselecter  } from './components';
-import {fetchData } from './api'
-
-
+import MapView from './components/map/MapView';
+import MapSelector from './components/mapselector/MapSelector';
+import Quiz from './components/quiz/Quiz';
+import './App.css';
+import styles from './App.module.css';
 
 class App extends React.Component {
-  async componentDidMount(){
-    const data = await fetchData();
-    console.log(data)
-  } 
-
   render(){
     return ( 
-      <div>
-        <h1>
-          yeehaw
-        </h1>
+      <div className={styles.container}>
+        <Quiz />
+        <MapSelector />
+        <MapView />
       </div>
-    )
+    );
   }
 }
+
 export default App;
