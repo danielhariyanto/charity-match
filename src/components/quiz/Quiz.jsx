@@ -22,22 +22,23 @@ export default function CheckboxesGroup() {
   const [state, setState] = React.useState({
     Animal: false,
     Environment: false,
-    SocialJustice: false,
-    Religion: false,
-    blm: false,
-    covid:false,
-    housing: false,
-    disability: false,
-    health: false,
-
+    Blm: false,
+    Covid: false,
+    Homelessness: false,
+    Disability:false,
+    Health: false,
+    Voting: false,
+    Immigration: false,
+    Refugee: false,
+    Education: false
   });
 
   const handleChange = (event) => {
     setState({ ...state, [event.target.name]: event.target.checked });
   };
 
-  const { Animal, Environment, SocialJustice, Religion,  blm, covid, housing, disability, health } = state;
-  const error = [Animal, Environment, SocialJustice, Religion, blm, covid, housing, disability, health].filter((v) => v).length !== 2;
+  const { Animals, Environment, Blm, Covid, Homelessness, Disability, Health, Voting, Immigration, Refugee, Education } = state;
+  const error = [Animals, Environment, Blm, Covid, Homelessness, Disability, Health, Voting, Immigration, Refugee, Education].filter((v) => v).length !== 2;
 
   return (
     <div className={classes.root}>
@@ -45,40 +46,48 @@ export default function CheckboxesGroup() {
         <FormLabel component="legend">What causes are you interested in</FormLabel>
         <FormGroup>
           <FormControlLabel
-            control={<Checkbox checked={Animal} onChange={handleChange} name="Animal" />}
-            label="Animal"
+            control={<Checkbox checked={Animals} onChange={handleChange} name="Animals" />}
+            label="Animals"
           />
           <FormControlLabel
             control={<Checkbox checked={Environment} onChange={handleChange} name="Environment" />}
             label="Environment"
           />
           <FormControlLabel
-            control={<Checkbox checked={SocialJustice} onChange={handleChange} name="SocialJustice" />}
-            label="Social Justice"
+            control={<Checkbox checked={Blm} onChange={handleChange} name="Blm" />}
+            label="Blm"
           />
           <FormControlLabel
-            control={<Checkbox checked={Religion} onChange={handleChange} name="Religion" />}
-            label="Religion"
+            control={<Checkbox checked={Covid} onChange={handleChange} name="Covid" />}
+            label="Covid"
           />
           <FormControlLabel
-            control={<Checkbox checked={blm} onChange={handleChange} name="blm" />}
-            label="Black Lives Matter"
+            control={<Checkbox checked={Homelessness} onChange={handleChange} name="Homelessness" />}
+            label="Homelessness"
           />
           <FormControlLabel
-            control={<Checkbox checked={covid} onChange={handleChange} name="covid" />}
-            label="COVID-19 Relief"
-          />
-          <FormControlLabel
-            control={<Checkbox checked={housing} onChange={handleChange} name="housing" />}
-            label="Housing"
-          />
-          <FormControlLabel
-            control={<Checkbox checked={disability} onChange={handleChange} name="disability" />}
+            control={<Checkbox checked={Disability} onChange={handleChange} name="Disability" />}
             label="Disability"
           />
           <FormControlLabel
-            control={<Checkbox checked={health} onChange={handleChange} name="health" />}
+            control={<Checkbox checked={Health} onChange={handleChange} name="Health" />}
             label="Health"
+          />
+          <FormControlLabel
+            control={<Checkbox checked={Voting} onChange={handleChange} name="Voting" />}
+            label="Voting"
+          />
+          <FormControlLabel
+            control={<Checkbox checked={Immigration} onChange={handleChange} name="Immigration" />}
+            label="Immigration"
+          />
+          <FormControlLabel
+            control={<Checkbox checked={Refugee} onChange={handleChange} name="Refugee" />}
+            label="Refugee"
+          />
+          <FormControlLabel
+            control={<Checkbox checked={Education} onChange={handleChange} name="Education" />}
+            label="Education"
           />
         </FormGroup>
         <FormHelperText>Be mindful</FormHelperText>
