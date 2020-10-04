@@ -1,4 +1,4 @@
-### Charity Match
+# Charity Match
 Demo: https://youtu.be/4k7-kA1NdB4
 
 ## Inspiration
