@@ -41,11 +41,11 @@ export default function ControlledOpenSelect() {
   return (
     <div className={styles.leftside}>
     <div>
-      <Button className={classes.button} onClick={handleOpen}>
-        what topic are you most passionate about?      
+{/* <Button className={classes.button} onClick={handleOpen}>
+        Categories     
       </Button>
       <FormControl className={classes.formControl}>
-        <InputLabel id="demo-controlled-open-select-label">Cause</InputLabel>
+        <InputLabel id="demo-controlled-open-select-label">causes</InputLabel>
         <Select
           labelId="demo-controlled-open-select-label"
           id="demo-controlled-open-select"
@@ -68,6 +68,7 @@ export default function ControlledOpenSelect() {
           <MenuItem value={"Voting Rights"}>Voting Rights</MenuItem>
           <MenuItem value={"Refugee Crisis"}>Refugee Crisis</MenuItem>
           <MenuItem value={"Education"}>Education</MenuItem>
+          <MenuItem value={"Health"}>Health</MenuItem>
             
         </Select>
       </FormControl>
@@ -77,7 +78,7 @@ export default function ControlledOpenSelect() {
         Where are you located?
       </Button>
       <FormControl className={classes.formControl}>
-        <InputLabel id="demo-controlled-open-select-label">States</InputLabel>
+        <InputLabel id="demo-controlled-open-select-label">states</InputLabel>
         <Select
           labelId="demo-controlled-open-select-label"
           id="demo-controlled-open-select"
@@ -152,16 +153,16 @@ export default function ControlledOpenSelect() {
           
           
         </Select>
-      </FormControl>
+  </FormControl> */}
 
     
       
 
       <Button className={classes.button} onClick={handleOpen}>
-          What do you do in your free time?
+          What do you do like to do in your free time?
       </Button>
       <FormControl className={classes.formControl}>
-        <InputLabel id="demo-controlled-open-select-label">Hobbies</InputLabel>
+        <InputLabel id="demo-controlled-open-select-label">hobbies</InputLabel>
         <Select
           labelId="demo-controlled-open-select-label"
           id="demo-controlled-open-select"
@@ -191,7 +192,7 @@ export default function ControlledOpenSelect() {
       </Button>
 
       <FormControl className={classes.formControl}>
-        <InputLabel id="demo-controlled-open-select-label">Topics</InputLabel>
+        <InputLabel id="demo-controlled-open-select-label">topics</InputLabel>
         <Select
           labelId="demo-controlled-open-select-label"
           id="demo-controlled-open-select"
@@ -223,7 +224,7 @@ export default function ControlledOpenSelect() {
       </Button>
 
       <FormControl className={classes.formControl}>
-   <InputLabel id="demo-controlled-open-select-label">Subjects</InputLabel> 
+   <InputLabel id="demo-controlled-open-select-label">subjects</InputLabel> 
         <Select
           labelId="demo-controlled-open-select-label"
           id="demo-controlled-open-select"
@@ -253,7 +254,7 @@ export default function ControlledOpenSelect() {
       </Button>
 
       <FormControl className={classes.formControl}>
-        <InputLabel id="demo-controlled-open-select-label">Movies</InputLabel>
+        <InputLabel id="demo-controlled-open-select-label">movies</InputLabel>
         <Select
           labelId="demo-controlled-open-select-label"
           id="demo-controlled-open-select"
@@ -284,7 +285,7 @@ export default function ControlledOpenSelect() {
       </Button>
 
       <FormControl className={classes.formControl}>
-        <InputLabel id="demo-controlled-open-select-label">Issues</InputLabel>
+        <InputLabel id="demo-controlled-open-select-label">issues</InputLabel>
         <Select
           labelId="demo-controlled-open-select-label"
           id="demo-controlled-open-select"
@@ -310,6 +311,9 @@ export default function ControlledOpenSelect() {
 
 
   </div>
+  <Button className={classes.button} onClick={handleOpen}>
+    find my charity
+      </Button>
     </div>
   );
   
