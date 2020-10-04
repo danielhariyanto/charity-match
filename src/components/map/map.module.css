@@ -2,8 +2,12 @@
 
 .container {
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
     width: 65%;
+    align-items: top;
+    float: right;
+    
+    
   }
   
   @media only screen and (max-width: 770px) {

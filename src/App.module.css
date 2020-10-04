@@ -4,8 +4,8 @@ body{
   
   .container{
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     flex-direction: column;
-    padding-top: 10%;
+    padding: 5%;
   }

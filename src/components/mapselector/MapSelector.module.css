@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     width: 65%;
-    padding-bottom: 10%;
+    padding-left: 5%;
   }

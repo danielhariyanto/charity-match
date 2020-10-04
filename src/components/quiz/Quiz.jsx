@@ -84,6 +84,9 @@ export default function CheckboxesGroup() {
         <FormHelperText>Be mindful</FormHelperText>
       </FormControl>
       
+      {/* function checkAnswer(){
+          for (var = 0; d<state.)
+      } */}
      
     </div>
   );
