@@ -1,0 +1,85 @@
+{
+    "venues": [
+        {
+            "name": "Woodstock Farm Animal Sanctuary",
+            "link": "http://woodstocksanctuary.org/",
+            "category": "Animals",
+            "geometry": [
+                41.8091924,
+                -74.16793940000001
+            ]
+        },
+        {
+            "name": "Environmental Advocates of New York",
+            "link": "http://www.eany.org/",
+            "category": "Environment",
+            "geometry": [
+                42.652246,
+                -73.7648392
+            ]
+        },
+        {
+            "name": "United Way of Westchester and Putnam",
+            "link": "http://www.uwwp.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                41.0284478,
+                -73.7897732
+            ]
+        },
+        {
+            "name": "enCourage Kids Foundation",
+            "link": "http://encourage-kids.org/",
+            "category": "COVID-19 Relief",
+            "geometry": [
+                40.758755,
+                -73.9845905
+            ]
+        },
+        {
+            "name": "Habitat for Humanity of Greater Newburgh Inc",
+            "link": "http://habitatnewburgh.org/",
+            "category": "Housing & Homelessness",
+            "geometry": [
+                41.49827,
+                -74.0127065
+            ]
+        },
+        {
+            "name": "Children's Aid",
+            "link": "https://www.childrensaidnyc.org/",
+            "category": "Health",
+            "geometry": [
+                40.75224860000001,
+                -73.9729531
+            ]
+        },
+        {
+            "name": "Hoving Home",
+            "link": "http://www.hovinghome.org",
+            "category": "Voting Rights",
+            "geometry": [
+                41.387545,
+                -73.930071
+            ]
+        },
+        {
+            "name": "New York Adult & Teen Challenge",
+            "link": "http://litcny.org/",
+            "category": "Refugee Crisis",
+            "geometry": [
+                40.7114431,
+                -73.3456781
+            ]
+        },
+        {
+            "name": "Hudson Link for Higher Education in Prison",
+            "link": "http://www.hudsonlink.org/",
+            "category": "Education",
+            "geometry": [
+                41.1628731,
+                -73.8615246
+            ]
+        }
+    ]
+}

@@ -10,8 +10,12 @@ import mapselector from './components/mapselector/MapSelector';
 
 class App extends React.Component {
   render(){
+<<<<<<< HEAD
     return ( 
       
+=======
+    return (
+>>>>>>> baf9314793d83f197751f21c97bd3fdeef666d5d
       <div className={styles.container}>
         <Quiz />
         <MapSelector />

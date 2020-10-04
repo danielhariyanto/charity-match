@@ -1,60 +1,463 @@
 {
     "venues": [
         {
-            "description": "Schon seit längerem wollte Rummel sich sein kleines Paradies schaffen, hat tiefe stille Wasser betörnt und stürmischen Zeiten getrotzt und hat endlich geankert - in einer schönen kleinen Bucht nicht weit von Euch! In diese Bucht läd Rummel von Mai bis Mitte September zum Chillen und Grillen, zum Schunkeln, Munkeln und natürlich Trunkeln. Und wenn Rummel mal so richtig gut drauf ist, dann wird auch mal ordentlich gerummelt! So oder so, zu Wasser wie zur Bucht, auch der Rummel ist nichts ohne seine Crew. Also Leichtmatrosen und Matrösinnen - kommt rum und lasst es Euch gut gehn! Ahoi* Ach ja, geöffnet ist nur an sonnigen und regenfreien Tagen :) ________________ Reservierungsanfragen sind nur per Mail möglich bucht@rummels-welt.de (Reservierungsanfragen werden nur zwischen Di-Fr beantwortet) ",
-            "name": "Rummels Bucht",
-            "link": "https://www.google.com",
+            "name": "United Methodist Children's Home",
+            "state": "AL",
+            "link": "http://www.umch.net",
+            "category": "Black Lives Matter",
             "geometry": [
-                44.500000,
-                -89.500000
+                32.3620991,
+                -86.2646233
             ]
         },
         {
-            "name": "SEZ Berlin",
-            "link": "https://www.google.com",
+            "name": "Catholic Education Arizona",
+            "state": "AZ",
+            "link": "https://catholiceducationarizona.org/",
+            "category": "Black Lives Matter",
             "geometry": [
-                39.000000,
-                -80.500000
+                33.51608,
+                -112.0469384
             ]
         },
         {
-            "name": "Huxley's Neue Welt",
-            "link": "https://www.google.com",
+            "name": "United Way of Fort Smith Area",
+            "state": "AR",
+            "link": "https://unitedwayfortsmith.org/",
+            "category": "Black Lives Matter",
             "geometry": [
-                44.000000,
-                -72.699997
+                35.3842203,
+                -94.4172559
             ]
         },
         {
-            "name": "Mensch Meier",
-            "link": "https://www.google.com",
+            "name": "United Way of Santa Barbara County",
+            "state": "CA",
+            "link": "http://www.unitedwaysb.org/",
+            "category": "Black Lives Matter",
             "geometry": [
-                31.000000,
-                -100.000000
+                34.4194413,
+                -119.6899138
             ]
         },
         {
-            "name": "Zur Klappe",
-            "link": "https://www.google.com",
+            "name": "FORGE",
+            "state": "CO",
+            "link": "http://forgeforward.org/",
+            "category": "Black Lives Matter",
             "geometry": [
-                41.700001,
-                71.500000
+                39.6797638,
+                -104.819844
             ]
         },
         {
-            "name": "OHM",
-            "link": "https://www.google.com",
+            "name": "ECAD, Educated Canines Assisting with Disabilities",
+            "state": "CT",
+            "link": "http://www.ecad1.org",
+            "category": "Black Lives Matter",
             "geometry": [
-                44.000000,
-                -120.500000
+                41.8003049,
+                -73.1211715
             ]
         },
         {
-            "name": "M-BIA",
-            "link": "https://www.google.com",
+            "name": "Animal Welfare Institute",
+            "state": "DC",
+            "link": "http://www.awionline.org",
+            "category": "Black Lives Matter",
             "geometry": [
-                43.000000,
-                -75.000000
+                38.8838868,
+                -76.9934899
+            ]
+        },
+        {
+            "name": "United Way Emerald Coast",
+            "state": "FL",
+            "link": "http://united-way.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                30.407629,
+                -86.6057862
+            ]
+        },
+        {
+            "name": "Gwinnett County Habitat for Humanity Inc",
+            "state": "GA",
+            "link": "http://www.habitatgwinnett.org",
+            "category": "Black Lives Matter",
+            "geometry": [
+                33.9562149,
+                -83.9879625
+            ]
+        },
+        {
+            "name": "Mountain Humane",
+            "state": "ID",
+            "link": "http://www.mountainhumane.org",
+            "category": "Black Lives Matter",
+            "geometry": [
+                43.5091078,
+                -114.3379378
+            ]
+        },
+        {
+            "name": "Cancer Wellness Center",
+            "state": "IL",
+            "link": "http://www.cancerwellness.org",
+            "category": "Black Lives Matter",
+            "geometry": [
+                42.1486898,
+                -87.8028059
+            ]
+        },
+        {
+            "name": "United Way of Madison County, Indiana",
+            "state": "IN",
+            "link": "http://www.unitedwaymadisonco.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                40.1053196,
+                -85.6802541
+            ]
+        },
+        {
+            "name": "Cedar Valley United Way",
+            "state": "IA",
+            "link": "http://www.cedarvalleyunitedway.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                42.4968029,
+                -92.34025179999999
+            ]
+        },
+        {
+            "name": "Salina Area United Way",
+            "state": "KS",
+            "link": "http://www.unitedwaysalina.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                38.8381093,
+                -97.6072878
+            ]
+        },
+        {
+            "name": "United Way of the Bluegrass",
+            "state": "KY",
+            "link": "http://www.uwbg.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                38.0411783,
+                -84.48866679999999
+            ]
+        },
+        {
+            "name": "Capital Area United Way, Louisiana",
+            "state": "LA",
+            "link": "http://www.cauw.org",
+            "category": "Black Lives Matter",
+            "geometry": [
+                30.4503268,
+                -91.18317660000001
+            ]
+        },
+        {
+            "name": "United Way of Greater Portland",
+            "state": "ME",
+            "link": "http://www.unitedwaygp.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                43.6567352,
+                -70.25511879999999
+            ]
+        },
+        {
+            "name": "Ronald McDonald House Charities of Baltimore",
+            "state": "MD",
+            "link": "https://rmhcbaltimore.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                39.2911125,
+                -76.6255453
+            ]
+        },
+        {
+            "name": "International OCD Foundation",
+            "state": "MA",
+            "link": "http://iocdf.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                42.3587826,
+                -71.05962459999999
+            ]
+        },
+        {
+            "name": "Hope Clinic",
+            "state": "MI",
+            "link": "http://thehopeclinic.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                42.2340114,
+                -83.61879619999999
+            ]
+        },
+        {
+            "name": "Los Cabos Children's Foundation",
+            "state": "MN",
+            "link": "http://www.loscaboschildren.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                44.7921231,
+                -93.18224149999999
+            ]
+        },
+        {
+            "name": "United Way of South Mississippi",
+            "state": "MS",
+            "link": "http://www.unitedwaysm.org",
+            "category": "Black Lives Matter",
+            "geometry": [
+                30.4335597,
+                -89.0344349
+            ]
+        },
+        {
+            "name": "Lives Under Construction Boys Ranch",
+            "state": "MO",
+            "link": "http://www.lucboys.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                36.5207117,
+                -93.503019
+            ]
+        },
+        {
+            "name": "Heart of the Valley Animal Shelter",
+            "state": "MT",
+            "link": "http://www.heartofthevalleyshelter.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                45.7528333,
+                -111.1469845
+            ]
+        },
+        {
+            "name": "Heartland United Way",
+            "state": "NE",
+            "link": "http://www.heartlandunitedway.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                40.93367,
+                -98.3774948
+            ]
+        },
+        {
+            "name": "Spread the Word Nevada",
+            "state": "NV",
+            "link": "http://spreadthewordnevada.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                36.0412932,
+                -115.0329757
+            ]
+        },
+        {
+            "name": "Girls Inc. of New Hampshire",
+            "state": "NH",
+            "link": "http://www.girlsincnewhampshire.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                42.7506334,
+                -71.4524776
+            ]
+        },
+        {
+            "name": "United Way of Central Jersey",
+            "state": "NJ",
+            "link": "http://www.uwcj.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                40.4505984,
+                -74.4390195
+            ]
+        },
+        {
+            "name": "Animal Humane New Mexico",
+            "state": "NM",
+            "link": "http://www.animalhumanenm.org",
+            "category": "Black Lives Matter",
+            "geometry": [
+                35.0672294,
+                -106.5535733
+            ]
+        },
+        {
+            "name": "United Way of Westchester and Putnam",
+            "state": "NY",
+            "link": "http://www.uwwp.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                41.0284478,
+                -73.7897732
+            ]
+        },
+        {
+            "name": "Speedway Children's Charities",
+            "state": "NC",
+            "link": "http://www.speedwaycharities.org",
+            "category": "Black Lives Matter",
+            "geometry": [
+                35.3515472,
+                -80.6865507
+            ]
+        },
+        {
+            "name": "Northlands Rescue Mission",
+            "state": "ND",
+            "link": "https://northlandsrescuemission.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                47.9218613,
+                -97.02841319999999
+            ]
+        },
+        {
+            "name": "United Way of Greater Cleveland",
+            "state": "OH",
+            "link": "http://www.unitedwaycleveland.org",
+            "category": "Black Lives Matter",
+            "geometry": [
+                41.5012406,
+                -81.6823015
+            ]
+        },
+        {
+            "name": "Tulsa Habitat for Humanity Inc",
+            "state": "OK",
+            "link": "http://www.tulsahabitat.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                36.1445817,
+                -95.9077901
+            ]
+        },
+        {
+            "name": "Dogs for Better Lives",
+            "state": "OR",
+            "link": "https://dogsforbetterlives.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                42.4618567,
+                -122.9399109
+            ]
+        },
+        {
+            "name": "United Way of Lackawanna and Wayne Counties",
+            "state": "PA",
+            "link": "http://www.uwlc.net/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                41.41163969999999,
+                -75.65596719999999
+            ]
+        },
+        {
+            "name": "Jewish Alliance of Greater Rhode Island",
+            "state": "RI",
+            "link": "http://www.jewishallianceri.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                41.841993,
+                -71.3923609
+            ]
+        },
+        {
+            "name": "United Way of Aiken County",
+            "state": "SC",
+            "link": "http://www.uwaiken.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                33.5632062,
+                -81.7211688
+            ]
+        },
+        {
+            "name": "Native American Heritage Association",
+            "state": "SD",
+            "link": "http://www.naha-inc.org",
+            "category": "Black Lives Matter",
+            "geometry": [
+                44.1973716,
+                -103.3430659
+            ]
+        },
+        {
+            "name": "United Way of Blount County",
+            "state": "TN",
+            "link": "http://www.liveunitedblount.org",
+            "category": "Black Lives Matter",
+            "geometry": [
+                35.77199969999999,
+                -83.9577267
+            ]
+        },
+        {
+            "name": "United Way of Denton County",
+            "state": "TX",
+            "link": "http://www.unitedwaydenton.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                33.2009958,
+                -97.1223521
+            ]
+        },
+        {
+            "name": "Crossroads Urban Center",
+            "state": "UT",
+            "link": "https://www.crossroadsurbancenter.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                40.7615774,
+                -111.8792392
+            ]
+        },
+        {
+            "name": "United Way of Roanoke Valley",
+            "state": "VA",
+            "link": "http://www.uwrv.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                37.271701,
+                -79.946737
+            ]
+        },
+        {
+            "name": "Imagine Children's Museum",
+            "state": "WA",
+            "link": "http://www.imaginecm.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                47.9775102,
+                -122.2096167
+            ]
+        },
+        {
+            "name": "Rawhide",
+            "state": "WI",
+            "link": "http://www.rawhide.org",
+            "category": "Black Lives Matter",
+            "geometry": [
+                44.3098219,
+                -88.853787
+            ]
+        },
+        {
+            "name": "Jackson Hole Conservation Alliance",
+            "state": "WY",
+            "link": "http://www.jhalliance.org/",
+            "category": "Black Lives Matter",
+            "geometry": [
+                43.4719603,
+                -110.7625561
             ]
         }
     ]
