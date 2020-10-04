@@ -187,7 +187,7 @@ export default function ControlledOpenSelect() {
       
     
     <Button className={classes.button} onClick={handleOpen}>
-        What would you like discussed during the November presidential election?
+        What issue would you like to be discussed during the November presidential election?
       </Button>
 
       <FormControl className={classes.formControl}>
