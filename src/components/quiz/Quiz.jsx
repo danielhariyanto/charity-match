@@ -215,6 +215,100 @@ export default function ControlledOpenSelect() {
         </Select>
         
       </FormControl>
+
+
+
+      <Button className={classes.button} onClick={handleOpen}>
+      What are some subjects you enjoy learning about?
+      </Button>
+
+      <FormControl className={classes.formControl}>
+   <InputLabel id="demo-controlled-open-select-label">Subjects</InputLabel> 
+        <Select
+          labelId="demo-controlled-open-select-label"
+          id="demo-controlled-open-select"
+          //open={open}
+          onClose={handleClose}
+          onOpen={handleOpen}
+          value={cause}
+          onChange={handleChange}
+        >xw
+          <MenuItem value="">
+            <em>None</em>
+          </MenuItem>
+          
+          <MenuItem value={"Health"}>Healthcare</MenuItem>
+          <MenuItem value={"Disability"}>Accessibility in our world</MenuItem>
+          <MenuItem value={"Animal"}>Animals</MenuItem>
+          <MenuItem value={"Voting Rights"}>Politics </MenuItem>
+          
+        </Select>
+        
+      </FormControl>
+
+
+
+      <Button className={classes.button} onClick={handleOpen}>
+      What is a movie you love?
+      </Button>
+
+      <FormControl className={classes.formControl}>
+        <InputLabel id="demo-controlled-open-select-label">Movies</InputLabel>
+        <Select
+          labelId="demo-controlled-open-select-label"
+          id="demo-controlled-open-select"
+          //open={open}
+          onClose={handleClose}
+          onOpen={handleOpen}
+          value={cause}
+          onChange={handleChange}
+        >xw
+          <MenuItem value="">
+            <em>None</em>
+          </MenuItem>
+          
+          <MenuItem value={"Environment"}>WALL-E </MenuItem>
+          <MenuItem value={"Disability"}>Wonder </MenuItem>
+          <MenuItem value={"Housing & Homeslessness"}>The Pursuit of Happiness</MenuItem>
+          <MenuItem value={"Refugee Crisis"}>Human Flow </MenuItem>
+          <MenuItem value={"Animal"}>Rio</MenuItem>
+          
+        </Select>
+        
+      </FormControl>
+
+
+
+      <Button className={classes.button} onClick={handleOpen}>
+      If you could solve any of the following issues in 5 years time, which one would you solve?
+      </Button>
+
+      <FormControl className={classes.formControl}>
+        <InputLabel id="demo-controlled-open-select-label">Issues</InputLabel>
+        <Select
+          labelId="demo-controlled-open-select-label"
+          id="demo-controlled-open-select"
+          //open={open}
+          onClose={handleClose}
+          onOpen={handleOpen}
+          value={cause}
+          onChange={handleChange}
+        >xw
+          <MenuItem value="">
+            <em>None</em>
+          </MenuItem>
+          
+          <MenuItem value={"COVID-19 Tracker"}>Covid-19</MenuItem>
+          <MenuItem value={"Immigration"}>Immigration </MenuItem>
+          <MenuItem value={"Black-Lives-Matter"}>Racial Justice</MenuItem>
+          <MenuItem value={"Housing & Homelessness"}>Housing & Homelessness</MenuItem>
+          <MenuItem value={"Health"}>Healthcare Access</MenuItem>
+          <MenuItem value={"Education"}>Education Access</MenuItem>
+        </Select>
+        
+      </FormControl>
+
+
   </div>
     </div>
   );
