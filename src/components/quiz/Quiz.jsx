@@ -1,102 +1,218 @@
+
+
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import FormLabel from '@material-ui/core/FormLabel';
+import InputLabel from '@material-ui/core/InputLabel';
+import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
-import FormGroup from '@material-ui/core/FormGroup';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import FormHelperText from '@material-ui/core/FormHelperText';
-import Checkbox from '@material-ui/core/Checkbox';
+import Select from '@material-ui/core/Select';
+import Button from '@material-ui/core/Button';
+import Chip from '@material-ui/core/Chip';
 
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    display: 'flex',
+  button: {
+    display: 'block',
+    marginTop: theme.spacing(2),
   },
   formControl: {
-    margin: theme.spacing(3),
+    margin: theme.spacing(1),
+    minWidth: 120,
   },
 }));
 
-export default function CheckboxesGroup() {
+export default function ControlledOpenSelect() {
   const classes = useStyles();
-  const [state, setState] = React.useState({
-    Animal: false,
-    Environment: false,
-    Blm: false,
-    Covid: false,
-    Homelessness: false,
-    Disability:false,
-    Health: false,
-    Voting: false,
-    Immigration: false,
-    Refugee: false,
-    Education: false
-  });
+  const [cause, setCause] = React.useState('');
+  const [open, setOpen] = React.useState(false);
 
   const handleChange = (event) => {
-    setState({ ...state, [event.target.name]: event.target.checked });
+    setCause(event.target.value);
   };
 
-  const { Animals, Environment, Blm, Covid, Homelessness, Disability, Health, Voting, Immigration, Refugee, Education } = state;
-  const error = [Animals, Environment, Blm, Covid, Homelessness, Disability, Health, Voting, Immigration, Refugee, Education].filter((v) => v).length !== 2;
+  const handleClose = () => {
+    setOpen(false);
+  };
+
+  const handleOpen = () => {
+    setOpen(true);
+  };
 
   return (
-    <div className={classes.root}>
-      <FormControl component="fieldset" className={classes.formControl}>
-        <FormLabel component="legend">What causes are you interested in</FormLabel>
-        <FormGroup>
-          <FormControlLabel
-            control={<Checkbox checked={Animals} onChange={handleChange} name="Animals" />}
-            label="Animals"
-          />
-          <FormControlLabel
-            control={<Checkbox checked={Environment} onChange={handleChange} name="Environment" />}
-            label="Environment"
-          />
-          <FormControlLabel
-            control={<Checkbox checked={Blm} onChange={handleChange} name="Blm" />}
-            label="Blm"
-          />
-          <FormControlLabel
-            control={<Checkbox checked={Covid} onChange={handleChange} name="Covid" />}
-            label="Covid"
-          />
-          <FormControlLabel
-            control={<Checkbox checked={Homelessness} onChange={handleChange} name="Homelessness" />}
-            label="Homelessness"
-          />
-          <FormControlLabel
-            control={<Checkbox checked={Disability} onChange={handleChange} name="Disability" />}
-            label="Disability"
-          />
-          <FormControlLabel
-            control={<Checkbox checked={Health} onChange={handleChange} name="Health" />}
-            label="Health"
-          />
-          <FormControlLabel
-            control={<Checkbox checked={Voting} onChange={handleChange} name="Voting" />}
-            label="Voting"
-          />
-          <FormControlLabel
-            control={<Checkbox checked={Immigration} onChange={handleChange} name="Immigration" />}
-            label="Immigration"
-          />
-          <FormControlLabel
-            control={<Checkbox checked={Refugee} onChange={handleChange} name="Refugee" />}
-            label="Refugee"
-          />
-          <FormControlLabel
-            control={<Checkbox checked={Education} onChange={handleChange} name="Education" />}
-            label="Education"
-          />
-        </FormGroup>
-        <FormHelperText>Be mindful</FormHelperText>
+    <div>
+      <Button className={classes.button} onClick={handleOpen}>
+        what event are you most passionate about?      
+      </Button>
+      <FormControl className={classes.formControl}>
+        <InputLabel id="demo-controlled-open-select-label">Cause</InputLabel>
+        <Select
+          labelId="demo-controlled-open-select-label"
+          id="demo-controlled-open-select"
+          //open={open}
+          onClose={handleClose}
+          onOpen={handleOpen}
+          value={cause}
+          onChange={handleChange}
+        >
+          <MenuItem value="">
+            <em>None</em>
+          </MenuItem>
+          <MenuItem value={"Animal"}>Animal</MenuItem>
+          <MenuItem value={"Environment"}>Environment</MenuItem>
+          <MenuItem value={"Black-Lives-Matter"}>BLM</MenuItem>
+          <MenuItem value={"COVID-19 Tracker"}>COVID-19</MenuItem>
+          <MenuItem value={"Housing & Homelessness"}>Housing</MenuItem>
+          <MenuItem value={"Disability"}>Disability</MenuItem>
+          <MenuItem value={"Immigration"}>Immigration</MenuItem>
+          <MenuItem value={"Voting Rights"}>Voting Rights</MenuItem>
+          <MenuItem value={"Refugee Crisis"}>Refugee Crisis</MenuItem>
+          <MenuItem value={"Education"}>Education</MenuItem>
+            
+        </Select>
       </FormControl>
+
+
+      <Button className={classes.button} onClick={handleOpen}>
+        Which states are you interested in
+      </Button>
+      <FormControl className={classes.formControl}>
+        <InputLabel id="demo-controlled-open-select-label">States</InputLabel>
+        <Select
+          labelId="demo-controlled-open-select-label"
+          id="demo-controlled-open-select"
+          onClose={handleClose}
+          onOpen={handleOpen}
+          value={cause}
+          onChange={handleChange}
+        >
+          <MenuItem value="">
+            <em>None</em>
+          </MenuItem>
+          <MenuItem value={"AL"}>AL</MenuItem>
+          <MenuItem value={"AK"}>AL</MenuItem>
+          <MenuItem value={"AZ"}>AZ</MenuItem>
+          <MenuItem value={"AR"}>AR</MenuItem>
+          <MenuItem value={"CA"}>CA</MenuItem>
+          <MenuItem value={"CO"}>CO</MenuItem>
+          <MenuItem value={"CT"}>CT</MenuItem>
+          <MenuItem value={"DE"}>DE</MenuItem>
+          <MenuItem value={"DC"}>DC</MenuItem>
+          <MenuItem value={"FL"}>FL</MenuItem>
+          <MenuItem value={"GA"}>GA</MenuItem>
+          <MenuItem value={"HI"}>HI</MenuItem>
+          <MenuItem value={"ID"}>ID</MenuItem>
+          <MenuItem value={"IL"}>IL</MenuItem>
+          <MenuItem value={"IN"}>IN</MenuItem>
+          <MenuItem value={"IA"}>IA</MenuItem>
+          <MenuItem value={"KS"}>KS</MenuItem>
+          <MenuItem value={"KY"}>KY</MenuItem>
+          <MenuItem value={"LA"}>LA</MenuItem>
+          <MenuItem value={"ME"}>ME</MenuItem>
+          <MenuItem value={"MD"}>MD</MenuItem>
+          <MenuItem value={"MA"}>MA</MenuItem>
+          <MenuItem value={"MI"}>MI</MenuItem>
+          <MenuItem value={"MN"}>MN</MenuItem>
+          <MenuItem value={"MS"}>MS</MenuItem>
+          <MenuItem value={"MO"}>MO</MenuItem>
+          <MenuItem value={"MT"}>MT</MenuItem>
+          <MenuItem value={"NE"}>NE</MenuItem>
+          <MenuItem value={"NV"}>NV</MenuItem>
+          <MenuItem value={"NH"}>NH</MenuItem>
+          <MenuItem value={"NJ"}>NJ</MenuItem>
+          <MenuItem value={"NM"}>NM</MenuItem>
+          <MenuItem value={"NY"}>NY</MenuItem>
+          <MenuItem value={"NC"}>NC</MenuItem>
+          <MenuItem value={"ND"}>ND</MenuItem>
+          <MenuItem value={"OH"}>OH</MenuItem>
+          <MenuItem value={"OK"}>OK</MenuItem>
+          <MenuItem value={"OR"}>OR</MenuItem>
+          <MenuItem value={"PA"}>PA</MenuItem>
+          <MenuItem value={"RI"}>RI</MenuItem>
+          <MenuItem value={"SC"}>SC</MenuItem>
+          <MenuItem value={"SD"}>SD</MenuItem>
+          <MenuItem value={"TN"}>TN</MenuItem>
+          <MenuItem value={"TX"}>TX</MenuItem>
+          <MenuItem value={"UT"}>UT</MenuItem>
+          <MenuItem value={"VT"}>VT</MenuItem>
+          <MenuItem value={"VA"}>VA</MenuItem>
+          <MenuItem value={"WA"}>WA</MenuItem>
+          <MenuItem value={"WV"}>WV</MenuItem>
+          <MenuItem value={"WI"}>WI</MenuItem>
+          <MenuItem value={"WY"}>WY</MenuItem>
+
+
+
+
+
+
+
+          
+
+          
+          
+        </Select>
+      </FormControl>
+
+
       
-      {/* function checkAnswer(){
-          for (var = 0; d<state.)
-      } */}
-     
+
+      <Button className={classes.button} onClick={handleOpen}>
+          What do you do in your free time?
+      </Button>
+      <FormControl className={classes.formControl}>
+        <InputLabel id="demo-controlled-open-select-label">Hobbies</InputLabel>
+        <Select
+          labelId="demo-controlled-open-select-label"
+          id="demo-controlled-open-select"
+          //open={open}
+          onClose={handleClose}
+          onOpen={handleOpen}
+          value={cause}
+          onChange={handleChange}
+        >
+          <MenuItem value="">
+            <em>None</em>
+          </MenuItem>
+          <MenuItem value={"Animal"}>Volunteer at an animal shelter</MenuItem>
+          <MenuItem value={"Environment"}> Plant trees in the neighborhood</MenuItem>
+          <MenuItem value={"Health"}>Run a marathon for disease awareness</MenuItem>
+          <MenuItem value={"Voting Rights"}>Watch the presidents</MenuItem>
+          <MenuItem value={"Refugee Crisis"}>Refugee Crisis</MenuItem>
+          <MenuItem value={"Education"}>Tutor kids</MenuItem>
+        
+        </Select>
+      </FormControl>
+
+      <Button className={classes.button} onClick={handleOpen}>
+           What would you like the candidates discuss duringthe November presidential election?
+        
+
+      </Button>
+      <FormControl className={classes.formControl}>
+        <InputLabel id="demo-controlled-open-select-label">Topics</InputLabel>
+        <Select
+          labelId="demo-controlled-open-select-label"
+          id="demo-controlled-open-select"
+          //open={open}
+          onClose={handleClose}
+          onOpen={handleOpen}
+          value={cause}
+          onChange={handleChange}
+        >xw
+          <MenuItem value="">
+            <em>None</em>
+          </MenuItem>
+          
+          <MenuItem value={"Black-Lives-Matter"}>BLM</MenuItem>
+          <MenuItem value={"Housing & Homelessness"}>Housing</MenuItem>
+          <MenuItem value={"Disability"}>Disability</MenuItem>
+          <MenuItem value={"Immigration"}>Immigration</MenuItem>
+          <MenuItem value={"Refugee Crisis"}>Refugee Crisis</MenuItem>
+          <MenuItem value={"Education"}>Education</MenuItem>
+          
+        </Select>
+      </FormControl>
     </div>
   );
+  
 }

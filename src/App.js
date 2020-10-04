@@ -1,6 +1,6 @@
 import React from 'react';
 import MapView from './components/map/MapView';
-import MapSelector from './components/mapselector/MapSelector';
+//import MapSelector from './components/mapselector/MapSelector';
 import Quiz from './components/quiz/Quiz';
 import './App.css';
 import styles from './App.module.css';
@@ -13,8 +13,9 @@ class App extends React.Component {
       <div className={styles.container}>
         <div>
           <Quiz />
+        
           <MapView />
-          <MapSelector />
+          
         </div>
         <div>
 
