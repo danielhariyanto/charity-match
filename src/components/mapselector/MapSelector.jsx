@@ -1,8 +1,16 @@
 import React from 'react';
+import {NativeSelect, FormControl} from '@material-ui/core';
+import styles from './MapSelector.module.css';
 
 const mapselector = () => {
     return (
-        <h1>mapselector</h1>
+      <div className = {styles.container}>
+        <FormControl className = {styles.formControl}>
+            <NativeSelect>
+                <option value = 'global'>Global</option>
+             </NativeSelect>
+        </FormControl>
+      </div>
     )
 }
 

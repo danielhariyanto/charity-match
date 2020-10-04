@@ -3,7 +3,7 @@ import { Map, TileLayer } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import data from '../../assets/data';
 import Markers from './VenueMarkers';
-
+import styles from './map.module.css';
 class MapView extends Component {
   constructor(props) {
     super(props);
@@ -17,14 +17,16 @@ class MapView extends Component {
     const { currentLocation, zoom } = this.state;
 
     return (
-      <Map center={currentLocation} zoom={zoom}>
-        <TileLayer
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          attribution="&copy; <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
-        />
+      <div className={styles.container}>
+        <Map center={currentLocation} zoom={zoom}>
+          <TileLayer
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+           attribution="&copy; <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
+          />
 
-        <Markers venues={data.venues}/>
-      </Map>
+          <Markers venues={data.venues}/>
+        </Map>
+      </div>
     );
   }
 }

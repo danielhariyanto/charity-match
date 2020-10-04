@@ -24,19 +24,25 @@ export default function CheckboxesGroup() {
     Environment: false,
     SocialJustice: false,
     Religion: false,
+    blm: false,
+    covid:false,
+    housing: false,
+    disability: false,
+    health: false,
+
   });
 
   const handleChange = (event) => {
     setState({ ...state, [event.target.name]: event.target.checked });
   };
 
-  const { Animal, Environment, SocialJustice, Religion } = state;
-  //const error = [Animal, Environment, SocialJustice, Religion].filter((v) => v).length !== 2;
+  const { Animal, Environment, SocialJustice, Religion,  blm, covid, housing, disability, health } = state;
+  const error = [Animal, Environment, SocialJustice, Religion, blm, covid, housing, disability, health].filter((v) => v).length !== 2;
 
   return (
     <div className={classes.root}>
       <FormControl component="fieldset" className={classes.formControl}>
-        <FormLabel component="legend">What causes are you interested</FormLabel>
+        <FormLabel component="legend">What causes are you interested in</FormLabel>
         <FormGroup>
           <FormControlLabel
             control={<Checkbox checked={Animal} onChange={handleChange} name="Animal" />}
@@ -54,9 +60,30 @@ export default function CheckboxesGroup() {
             control={<Checkbox checked={Religion} onChange={handleChange} name="Religion" />}
             label="Religion"
           />
+          <FormControlLabel
+            control={<Checkbox checked={blm} onChange={handleChange} name="blm" />}
+            label="Black Lives Matter"
+          />
+          <FormControlLabel
+            control={<Checkbox checked={covid} onChange={handleChange} name="covid" />}
+            label="COVID-19 Relief"
+          />
+          <FormControlLabel
+            control={<Checkbox checked={housing} onChange={handleChange} name="housing" />}
+            label="Housing"
+          />
+          <FormControlLabel
+            control={<Checkbox checked={disability} onChange={handleChange} name="disability" />}
+            label="Disability"
+          />
+          <FormControlLabel
+            control={<Checkbox checked={health} onChange={handleChange} name="health" />}
+            label="Health"
+          />
         </FormGroup>
         <FormHelperText>Be mindful</FormHelperText>
       </FormControl>
+      
      
     </div>
   );
