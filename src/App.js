@@ -5,7 +5,6 @@ import Quiz from './components/quiz/Quiz';
 import './App.css';
 import styles from './App.module.css';
 //import { BrowserRouter, Route, Switch} from 'react-router-dom';
-import mapselector from './components/mapselector/MapSelector';
 
 class App extends React.Component {
   render(){

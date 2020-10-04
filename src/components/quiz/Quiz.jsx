@@ -8,7 +8,7 @@ import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import Button from '@material-ui/core/Button';
 import Chip from '@material-ui/core/Chip';
-
+import styles from './Quiz.module.css';
 
 const useStyles = makeStyles((theme) => ({
   button: {
@@ -39,9 +39,10 @@ export default function ControlledOpenSelect() {
   };
 
   return (
+    <div className={styles.leftside}>
     <div>
       <Button className={classes.button} onClick={handleOpen}>
-        what event are you most passionate about?      
+        what topic are you most passionate about?      
       </Button>
       <FormControl className={classes.formControl}>
         <InputLabel id="demo-controlled-open-select-label">Cause</InputLabel>
@@ -73,7 +74,7 @@ export default function ControlledOpenSelect() {
 
 
       <Button className={classes.button} onClick={handleOpen}>
-        Which states are you interested in
+        Where are you located?
       </Button>
       <FormControl className={classes.formControl}>
         <InputLabel id="demo-controlled-open-select-label">States</InputLabel>
@@ -153,7 +154,7 @@ export default function ControlledOpenSelect() {
         </Select>
       </FormControl>
 
-
+    
       
 
       <Button className={classes.button} onClick={handleOpen}>
@@ -183,11 +184,12 @@ export default function ControlledOpenSelect() {
         </Select>
       </FormControl>
 
-      <Button className={classes.button} onClick={handleOpen}>
-           What would you like the candidates discuss duringthe November presidential election?
-        
-
+      
+    
+    <Button className={classes.button} onClick={handleOpen}>
+        What would you like discussed during the November presidential election?
       </Button>
+
       <FormControl className={classes.formControl}>
         <InputLabel id="demo-controlled-open-select-label">Topics</InputLabel>
         <Select
@@ -211,7 +213,9 @@ export default function ControlledOpenSelect() {
           <MenuItem value={"Education"}>Education</MenuItem>
           
         </Select>
+        
       </FormControl>
+  </div>
     </div>
   );
   

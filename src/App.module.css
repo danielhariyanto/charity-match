@@ -1,11 +1,8 @@
 body{
-    background-color: rgb(167, 160, 201);
+    background-color: #195163;
+    
   }
   
   .container{
-    display: flex;
-    align-items: left;
-    justify-content: center;
-    flex-direction: column;
-    padding: 5%;
+
   }

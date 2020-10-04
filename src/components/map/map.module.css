@@ -1,11 +1,9 @@
 
 
 .container {
-    display: flex;
-    /*justify-content: center;*/
-    width: 65%;
-    align-items: top;
-    float: right;
+  width: 65%;
+  height:auto;
+  float:left;
     
     
   }
