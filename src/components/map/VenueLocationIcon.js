@@ -7,6 +7,6 @@ export const VenueLocationIcon = L.icon({
   shadowUrl: null,
   shadowSize: null,
   shadowAnchor: null,
-  iconSize: [18, 18],
+  iconSize: [25, 25],
   className: 'leaflet-venue-icon'
 });

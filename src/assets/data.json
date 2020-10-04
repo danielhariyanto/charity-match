@@ -1,60 +1,84 @@
 {
     "venues": [
         {
-            "description": "Schon seit längerem wollte Rummel sich sein kleines Paradies schaffen, hat tiefe stille Wasser betörnt und stürmischen Zeiten getrotzt und hat endlich geankert - in einer schönen kleinen Bucht nicht weit von Euch! In diese Bucht läd Rummel von Mai bis Mitte September zum Chillen und Grillen, zum Schunkeln, Munkeln und natürlich Trunkeln. Und wenn Rummel mal so richtig gut drauf ist, dann wird auch mal ordentlich gerummelt! So oder so, zu Wasser wie zur Bucht, auch der Rummel ist nichts ohne seine Crew. Also Leichtmatrosen und Matrösinnen - kommt rum und lasst es Euch gut gehn! Ahoi* Ach ja, geöffnet ist nur an sonnigen und regenfreien Tagen :) ________________ Reservierungsanfragen sind nur per Mail möglich bucht@rummels-welt.de (Reservierungsanfragen werden nur zwischen Di-Fr beantwortet) ",
-            "name": "Rummels Bucht",
-            "link": "https://www.google.com",
+            "name": "Woodstock Farm Animal Sanctuary",
+            "link": "http://woodstocksanctuary.org/",
+            "category": "Animals",
             "geometry": [
-                44.500000,
-                -89.500000
+                41.8091924,
+                -74.16793940000001
             ]
         },
         {
-            "name": "SEZ Berlin",
-            "link": "https://www.google.com",
+            "name": "Environmental Advocates of New York",
+            "link": "http://www.eany.org/",
+            "category": "Environment",
             "geometry": [
-                39.000000,
-                -80.500000
+                42.652246,
+                -73.7648392
             ]
         },
         {
-            "name": "Huxley's Neue Welt",
-            "link": "https://www.google.com",
+            "name": "United Way of Westchester and Putnam",
+            "link": "http://www.uwwp.org/",
+            "category": "Black Lives Matter",
             "geometry": [
-                44.000000,
-                -72.699997
+                41.0284478,
+                -73.7897732
             ]
         },
         {
-            "name": "Mensch Meier",
-            "link": "https://www.google.com",
+            "name": "enCourage Kids Foundation",
+            "link": "http://encourage-kids.org/",
+            "category": "COVID-19 Relief",
             "geometry": [
-                31.000000,
-                -100.000000
+                40.758755,
+                -73.9845905
             ]
         },
         {
-            "name": "Zur Klappe",
-            "link": "https://www.google.com",
+            "name": "Habitat for Humanity of Greater Newburgh Inc",
+            "link": "http://habitatnewburgh.org/",
+            "category": "Housing & Homelessness",
             "geometry": [
-                41.700001,
-                71.500000
+                41.49827,
+                -74.0127065
             ]
         },
         {
-            "name": "OHM",
-            "link": "https://www.google.com",
+            "name": "Children's Aid",
+            "link": "https://www.childrensaidnyc.org/",
+            "category": "Health",
             "geometry": [
-                44.000000,
-                -120.500000
+                40.75224860000001,
+                -73.9729531
             ]
         },
         {
-            "name": "M-BIA",
-            "link": "https://www.google.com",
+            "name": "Hoving Home",
+            "link": "http://www.hovinghome.org",
+            "category": "Voting Rights",
             "geometry": [
-                43.000000,
-                -75.000000
+                41.387545,
+                -73.930071
+            ]
+        },
+        {
+            "name": "New York Adult & Teen Challenge",
+            "link": "http://litcny.org/",
+            "category": "Refugee Crisis",
+            "geometry": [
+                40.7114431,
+                -73.3456781
+            ]
+        },
+        {
+            "name": "Hudson Link for Higher Education in Prison",
+            "link": "http://www.hudsonlink.org/",
+            "category": "Education",
+            "geometry": [
+                41.1628731,
+                -73.8615246
             ]
         }
     ]
