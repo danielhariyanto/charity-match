@@ -7,7 +7,7 @@ import styles from './App.module.css';
 
 class App extends React.Component {
   render(){
-    return ( 
+    return (
       <div className={styles.container}>
         <Quiz />
         <MapSelector />
